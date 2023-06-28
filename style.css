@@ -136,6 +136,12 @@ body:hover .attribution, .attribution:hover {
     }
 }
 
+@media (max-height: 768px) {
+    .header {
+        margin-top: 60px;
+    }
+}
+
 @media (max-width: 768px) {
 
     body {
@@ -180,5 +186,23 @@ body:hover .attribution, .attribution:hover {
         top: 80px;
         background: url("images/hero-mobile.jpg") no-repeat ;
         background-size: cover;
+    }
+
+    .attribution {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .image {
+        height: 210px;
+    }
+
+    .header {
+        margin-top: 290px;
+    }
+
+    .attribution {
+        font-size: 11px;
     }
 }
